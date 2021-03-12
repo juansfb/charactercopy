@@ -1,0 +1,147 @@
+ * { 
+
+      margin: 0; 
+      padding: 0; 
+
+      
+ }
+
+
+  html {
+
+
+
+
+        background: url(../img/background.jpg) no-repeat center center fixed; /* define the url to our background image */       
+        -webkit-background-size: cover;        
+        -moz-background-size: cover;        
+        -o-background-size: cover;        
+        background-size: cover;
+
+        overflow: scroll;  /* enable the scrollbar */
+        overflow-x: hidden; /* hide the horizontal scrollbar */
+
+
+ }
+
+
+  body { 
+
+    max-width: 1000px;                 /* fix for web browser to not look shitty in minimized window */
+    max-height: 1600px;                /* fix for web browser to not look shitty in minimized window */
+} 
+
+
+  #logo {
+
+    background: url(../img/nsfw.png);
+    background-repeat: no-repeat;
+
+    width: 666px;
+    height: 353px;
+    
+    position: relative;
+
+    margin-left: 450px;
+    margin-top: 30px;
+    
+    
+
+ }
+
+  #logo p {
+
+    font-family: "Comic Sans MS";
+    font-size: 13pt;
+    color: #777777;
+
+    padding-top: 280px;  
+    padding-left: 210px;  
+
+ }
+
+ 
+
+  #content {
+
+    background: url(../img/content.png);
+    background-repeat: no-repeat;
+
+    width: 340px;
+    height: 318px;
+
+    position: absolute;    
+
+    margin-left: 290px;
+    margin-top: 30px;
+    
+  }
+
+  #content h1 {
+
+    font-family: "Comic Sans MS";
+    font-size: 22pt;
+    color: #848282;
+    
+
+    margin-left: 25px; 
+    padding-top: 10px;
+
+ }
+
+  #content p {
+
+    font-family: "Comic Sans MS";
+    font-size: 13pt;
+    color: #959595;
+    
+    max-width: 260px;
+
+    margin-left: 25px; 
+    padding-top: 10px;
+
+ }
+
+
+  #registration_boxes {
+
+    margin-left: 695px; 
+    padding-top: 100px;
+    position: relative;
+
+ }
+
+  #registration_boxes p {
+
+    font-family: "Comic Sans MS";
+    font-size: 13pt;
+    color: #767171;
+    
+    max-width: 260px;
+
+    margin-left: 50px; 
+    padding-top: 10px;
+
+ }
+
+
+  input {
+
+    outline: 0px;                     /* fix for Google Chrome´s yellow ugly border around forms                    */
+    position: absolute;
+    color: #353131;
+    background: #f2f2f2;
+    border: 0px;                      /* fix for Internet Explorer and Firefox to not show any borders around forms */
+    padding-left: 10px;
+    padding-top: 12px;
+    background-color: transparent;    /* transparent background color                                               */
+ }
+
+  .usernameform {
+
+    width: 238px;
+    height: 40px;
+    background: url(../img/form.png);
+    background-repeat: no-repeat;
+
+ }
